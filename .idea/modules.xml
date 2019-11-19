@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sca-upms/sca-aserver/sca-aserver.iml" filepath="$PROJECT_DIR$/sca-upms/sca-aserver/sca-aserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sca-upms/sca-bserver/sca-bserver.iml" filepath="$PROJECT_DIR$/sca-upms/sca-bserver/sca-bserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sca-caikeng.iml" filepath="$PROJECT_DIR$/sca-caikeng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sca-gateway/sca-gateway.iml" filepath="$PROJECT_DIR$/sca-gateway/sca-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sca-upms/sca-upms.iml" filepath="$PROJECT_DIR$/sca-upms/sca-upms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sca-dubbo-interface/scadubbointerface.iml" filepath="$PROJECT_DIR$/sca-dubbo-interface/scadubbointerface.iml" />
+    </modules>
+  </component>
+</project>

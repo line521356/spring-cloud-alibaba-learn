@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sca-gateway" />
+        <module name="sca-bserver" />
+        <module name="sca-aserver" />
+        <module name="scadubbointerface" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="aserver" target="1.8" />
+      <module name="sca-aserver" target="1.8" />
+      <module name="sca-bserver" target="1.8" />
+      <module name="sca-caikeng" target="1.8" />
+      <module name="sca-dubbo-interface" target="1.5" />
+      <module name="sca-gateway" target="1.8" />
+      <module name="sca-upms" target="1.8" />
+      <module name="sca-upms-aserver" target="1.8" />
+      <module name="scadubbointerface" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aserver" options="-parameters" />
+      <module name="sca-aserver" options="-parameters" />
+      <module name="sca-bserver" options="-parameters" />
+      <module name="sca-dubbo-interface" options="" />
+      <module name="sca-gateway" options="-parameters" />
+      <module name="sca-upms" options="-parameters" />
+      <module name="sca-upms-aserver" options="-parameters" />
+    </option>
+  </component>
+</project>

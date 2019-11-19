@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: bserver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080
+      eager: true
+      datasource:
+        ds:
+          nacos:
+            server-addr: localhost:8848
+            dataId: api_model_sentinel
+            groupId: DEFAULT_GROUP
+            ruleType: flow
+  main:
+    allow-bean-definition-overriding: true
+dubbo:
+  scan:
+    base-packages: com.lucius.upms.scabserver.scabserver.dubboServiceImpl
+  protocol:
+    port: -1
+    name: dubbo
+  registry:
+    address: spring-cloud://127.0.0.1
